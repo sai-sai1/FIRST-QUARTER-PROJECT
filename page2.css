@@ -1,0 +1,214 @@
+
+   body {
+    background-color: black;	
+	
+   }
+   
+   @import url(https://db.onlinewebfonts.com/c/7bf226306214181d5e917ed5bda2301c?family=Norwester);
+   @font-face {
+    font-family: "Norwester";
+    src: url("https://db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.eot");
+    src: url("https://db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.svg#Norwester")format("svg");
+    }
+   
+   
+   @import url(https://db.onlinewebfonts.com/c/029177df870cce2b384f0610a6e1f82a?family=Montserrat+Light);
+   
+   @font-face {
+    font-family: "Montserrat Light";
+    src: url("https://db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.eot");
+    src: url("https://db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.svg#Montserrat Light")format("svg");
+    }
+   
+   .image {
+    opacity: 0.3;
+    position: absolute;
+	top: 50px;
+	left: 0px;
+	width: 1350px;
+	height: 300px;
+    z-index: -1;
+    }
+   
+   
+   h1 {
+	font-family: "Norwester";
+	font-size: 40px;
+	transition: color 0.3s;
+	font-size: 40px;
+	letter-spacing: 0.5px;
+	margin-top: 30px;
+	margin-left: 100px;
+	color: white;
+	z-index: 5;
+	
+   }
+   
+   h1:hover{
+    color: white;
+   }
+   
+   
+   
+   .p {
+	font-family: "Montserrat Light";
+	font-size: 15px;
+    letter-spacing:0.5px;	
+    margin-top: -15px;
+	margin-left: 100px;
+    color: white;
+   }
+   
+   	
+   
+   .image {
+	opacity: 0.7;
+    position: absolute;
+	margin-top: 199px;
+	margin-left: 0px;
+	width: 1100px;
+	height: 400px;
+    z-index: -1;
+   }
+   
+   .pp {
+	font-family: "Montserrat Light";
+	font-size: 15px;
+    letter-spacing:0.5px;	
+    margin-top: 10px;
+	margin-left: 100px;
+    color: white;
+	transition: color 0.3s;
+	z-index: 5;
+   }
+   
+   .pp:hover {
+	background: linear-gradient(15deg, #4169e1, #F8C8DC);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color:transparent;
+		
+	}
+   
+   .h {
+	font-color: white;
+	font-size: 40px;
+	position: absolute;
+	margin-top: 440px;
+	margin-left: 415px;
+	transition: color 0.3s;
+	z-index: 5;
+   }
+   
+   	.h:hover {
+	background: linear-gradient(15deg, #4169e1, #F8C8DC);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color:transparent;
+		
+	}
+   
+    .ppp {
+    font-family: "Montserrat Light";
+	font-size: 15px;
+    letter-spacing:0.5px;	
+	position: relative;
+    margin-top: 490px;
+	margin-right: -80px;
+    color: white;
+	transition: color 0.3s;
+	float: right;
+	z-index: 5;
+	
+	}
+	
+	.ppp:hover {
+	background: linear-gradient(15deg, #FFA500, #EE4B2B);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color:transparent;
+		
+	}
+   
+   
+   
+   .pppp {
+	font-family: "Montserrat Light";
+	font-size: 15px;
+    letter-spacing:0.5px;
+    position: relative;	
+    top: 565px;
+	right: -415px;
+    color: white;
+	transition: color 0.3s;
+	z-index: 5;
+   }
+   
+   .pppp:hover {
+	background: linear-gradient(15deg, #FFA500, #EE4B2B);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color:transparent;
+		
+	}
+   
+   
+	
+  
+	
+   .b {
+    font-family: "Montserrat Light";
+	font-size: 15px;
+	position: relative;
+	top: 600px;
+	left: 900px;
+	z-index: 5;
+   }
+   
+   a:link{
+    color: white;
+   }
+   a:visited{
+    color: white;
+   }
+   a:hover{
+    color:rgb(255, 165, 0);
+   }
+   a:active{
+    color: yellow;
+   }
+  
+   
+   
+   .i {
+    display: inline-block;
+    opacity: 0.2;
+    height: 250px;
+    width: 1100px;
+    position: relative;
+    bottom: 1100px;
+    right: 10px;
+    z-index:1;
+  
+   }
+   .im {
+    display: inline-block;
+    opacity: 0.2;
+    height: 300px;
+    width: 1590px;
+    position: relative;
+    bottom: 120px;
+    left:-500px;
+    z-index: 1;
+   }
+   
+  
+ 

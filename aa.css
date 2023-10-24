@@ -1,0 +1,258 @@
+
+   body {
+    background-color: black;	
+	
+   }
+   
+   .image {
+    opacity: 0.3;
+    position: absolute;
+	top: 50px;
+	left: 0px;
+	width: 1060px;
+	height: 400px;
+	
+    z-index: -1;
+   }
+   @import url(https://db.onlinewebfonts.com/c/7bf226306214181d5e917ed5bda2301c?family=Norwester);
+   @font-face {
+    font-family: "Norwester";
+    src: url("https://db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.eot");
+    src: url("https://db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.svg#Norwester")format("svg");
+   }
+   
+   
+   @import url(https://db.onlinewebfonts.com/c/029177df870cce2b384f0610a6e1f82a?family=Montserrat+Light);
+   
+   @font-face {
+    font-family: "Montserrat Light";
+    src: url("https://db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.eot");
+    src: url("https://db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.svg#Montserrat Light")format("svg");
+   }
+   h1 {
+	font-family: "Norwester";
+    font-size: 60px;
+    letter-spacing:0.5px;	
+    margin-top: 190px;
+	padding-bottom:0px;
+    color: white;
+	transition: color 0.3s;
+	z-index: 5;
+   }
+   
+   h1:hover {
+	background: linear-gradient(15deg, #ff512f, #dd2476);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color:transparent;
+		
+   }
+   
+  
+   .paragraph {
+	font-family: "Montserrat Light";
+    color: white;
+	position: relative;
+	top: -30px;
+	left: 10px;
+	z-index: 2;
+	transition: color 0.3s;
+	
+   }
+   
+    .paragraph:hover {
+	background: linear-gradient(15deg, #4ca1af , #c4e0e5);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color:transparent;
+		
+   }
+
+   .ppp {
+	font-family: "Montserrat Light";
+	text-decoration: none;
+	position: relative;
+	top: -10px;
+	left: 10px;
+   }
+   
+   .elephant {
+	position: relative;
+    top: 120px;
+    right: 100px;
+	z-index: 1;
+	opacity: 1.0;
+	width: 200px;
+	height: 190px;
+   }
+   
+   .pe {
+	position: relative;
+    top: 120px;
+    left: -290px;
+	z-index: 2;
+	opacity: 1.0;
+	width: 200px;
+	height: 180px;
+   }
+   
+   .pen {
+	position: relative;
+    top: -85px;
+    right: -635px;
+	z-index: 1;
+	opacity: 1.0;
+	width: 300px;
+	height: 200px;
+   }
+
+   a:link{
+    color: white;
+   }
+   a:visited{
+    color: white;
+   }
+   a:hover{
+    color: rgb(255, 165, 0);
+   }
+   a:active{
+    color: white;
+   }
+   
+   
+   .container{
+    position: relative;
+    display: inline-block;
+		
+   }
+   
+   .image-opacity,
+   .elephant {
+	transition: transform 0.3s;
+   }
+   
+   .container:hover .image-opacity; {
+	transform: scale(1.1);
+   }
+   .container:hover .elephant {
+	transform: scale(1.1) rotate(-5deg);
+	   
+   }
+   
+   .container{
+	position: relative;
+    display: inline-block;
+		
+   }
+   
+   .image-opacity,
+   .elephant {
+	   
+	transition: transform 0.3s;
+   }
+   
+   .container:hover .image-opacity; {
+	transform: scale(1.1);
+   }
+   .container:hover .elephant {
+	transform: scale(1.1) rotate(-5deg);
+	   
+   }
+   
+   .co{
+	position: relative;
+    display: inline-block;
+		
+   }
+   
+   .i,
+   .pe {
+	   
+	transition: transform 0.3s;
+   }
+   
+   .co:hover .i; {
+	transform: scale(1.1);
+   }
+   .co:hover .pe {
+	transform: scale(1.1) rotate(-5deg);
+	   
+   }
+   
+   .con{
+	position: relative;
+    display: inline-block;
+		
+   }
+   
+   .im,
+   .pen {
+	   
+	transition: transform 0.3s;
+   }
+   
+   .con:hover .im; {
+	transform: scale(1.1);
+   }
+   .con:hover .pen {
+	transform: scale(1.1) rotate(-5deg);
+	   
+   }
+
+   .image-opacity {
+	display: inline-block;
+    opacity: 0.3;
+    height: 180px;
+    width: 250px;
+    position: relative;
+    top: 120px;
+    right: -150px;
+	z-index: 1;
+   }
+   
+   .i {
+   display: inline-block;
+   opacity: 0.3;
+   height: 180px;
+   width: 260px;
+   position: relative;
+   top: 120px;
+   left: -58px;
+   z-index: 2;
+   
+   }
+   .im {
+   display: inline-block;
+   opacity: 0.3;
+   height: 180px;
+   width: 280px;
+   position: relative;
+   top: -64px;
+   left: 330px;
+   float: right;
+   
+   }
+   
+    .source {
+	font-family: "Montserrat Light";
+    font-size: 10px;
+    letter-spacing:0.5px;	
+    position: absolute;
+	bottom: -450px;
+	right: 10px;
+    color: white;
+	transition: color 0.3s;
+	z-index: 5;
+	font-style: italic;
+   }
+   
+  
+ 
